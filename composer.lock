@@ -39,7 +39,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-colbyarts-theme",
-                "reference": "7c5ec6d82256bd3c7fafa252d53d4b5d583dc1e1"
+                "reference": "eefbfb4463e5badd9bc63abdd4de2b8df23663df"
             },
             "require": {
                 "php": ">=7.1"
@@ -56,7 +56,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2023-07-20T17:33:51+00:00"
+            "time": "2023-08-16T15:21:36+00:00"
         },
         {
             "name": "colbycommunications/colby-college-theme",
@@ -64,7 +64,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-college-theme",
-                "reference": "338aa733339a05fa4e6c7d731694aabe1dc7e981"
+                "reference": "59d8f0b3014bef1da9802148e8314c73bb56dd1b"
             },
             "require": {
                 "php": ">=7.1"
@@ -80,7 +80,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2023-08-09T18:02:40+00:00"
+            "time": "2023-08-15T21:24:33+00:00"
         },
         {
             "name": "colbycommunications/colby-ticket",
@@ -883,16 +883,16 @@
         },
         {
             "name": "gettext/gettext",
-            "version": "v4.8.8",
+            "version": "v4.8.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-gettext/Gettext.git",
-                "reference": "302a00aa9d6762c92c884d879c15d3ed05d6a37d"
+                "reference": "b632aaf5e4579d0b2ae8bc61785e238bff4c5156"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-gettext/Gettext/zipball/302a00aa9d6762c92c884d879c15d3ed05d6a37d",
-                "reference": "302a00aa9d6762c92c884d879c15d3ed05d6a37d",
+                "url": "https://api.github.com/repos/php-gettext/Gettext/zipball/b632aaf5e4579d0b2ae8bc61785e238bff4c5156",
+                "reference": "b632aaf5e4579d0b2ae8bc61785e238bff4c5156",
                 "shasum": ""
             },
             "require": {
@@ -944,7 +944,7 @@
             "support": {
                 "email": "oom@oscarotero.com",
                 "issues": "https://github.com/oscarotero/Gettext/issues",
-                "source": "https://github.com/php-gettext/Gettext/tree/v4.8.8"
+                "source": "https://github.com/php-gettext/Gettext/tree/v4.8.11"
             },
             "funding": [
                 {
@@ -960,7 +960,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-12-08T11:59:50+00:00"
+            "time": "2023-08-14T15:15:05+00:00"
         },
         {
             "name": "gettext/languages",
@@ -1272,16 +1272,16 @@
         },
         {
             "name": "mck89/peast",
-            "version": "v1.15.3",
+            "version": "v1.15.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mck89/peast.git",
-                "reference": "3f57998e503e7fd4ca6662d3dce1f92fb8e041f6"
+                "reference": "1df4dc28a6b5bb7ab117ab073c1712256e954e18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mck89/peast/zipball/3f57998e503e7fd4ca6662d3dce1f92fb8e041f6",
-                "reference": "3f57998e503e7fd4ca6662d3dce1f92fb8e041f6",
+                "url": "https://api.github.com/repos/mck89/peast/zipball/1df4dc28a6b5bb7ab117ab073c1712256e954e18",
+                "reference": "1df4dc28a6b5bb7ab117ab073c1712256e954e18",
                 "shasum": ""
             },
             "require": {
@@ -1294,7 +1294,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15.3-dev"
+                    "dev-master": "1.15.4-dev"
                 }
             },
             "autoload": {
@@ -1315,9 +1315,9 @@
             "description": "Peast is PHP library that generates AST for JavaScript code",
             "support": {
                 "issues": "https://github.com/mck89/peast/issues",
-                "source": "https://github.com/mck89/peast/tree/v1.15.3"
+                "source": "https://github.com/mck89/peast/tree/v1.15.4"
             },
-            "time": "2023-08-03T13:14:11+00:00"
+            "time": "2023-08-12T08:29:29+00:00"
         },
         {
             "name": "mustache/mustache",
@@ -1416,16 +1416,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.16.0",
+            "version": "v4.17.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "19526a33fb561ef417e822e85f08a00db4059c17"
+                "reference": "a6303e50c90c355c7eeee2c4a8b27fe8dc8fef1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/19526a33fb561ef417e822e85f08a00db4059c17",
-                "reference": "19526a33fb561ef417e822e85f08a00db4059c17",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/a6303e50c90c355c7eeee2c4a8b27fe8dc8fef1d",
+                "reference": "a6303e50c90c355c7eeee2c4a8b27fe8dc8fef1d",
                 "shasum": ""
             },
             "require": {
@@ -1466,9 +1466,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v4.16.0"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v4.17.1"
             },
-            "time": "2023-06-25T14:52:30+00:00"
+            "time": "2023-08-13T19:53:39+00:00"
         },
         {
             "name": "phpoption/phpoption",
