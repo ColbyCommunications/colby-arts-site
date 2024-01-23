@@ -4,7 +4,7 @@
     "type": "project",
     "require": {
         "johnpbloch/wordpress-core-installer": "^2.0",
-        "johnpbloch/wordpress-core": "6.4.1",
+        "johnpbloch/wordpress-core": "6.4.2",
         "wpackagist-plugin/header-footer": "3.2.7",
         "wpackagist-plugin/duplicate-post": "4.5",
         "wpackagist-plugin/wordpress-seo": "21.6",
@@ -19,7 +19,7 @@
         "wpackagist-plugin/wp-search-with-algolia": "2.7.0",
         "vlucas/phpdotenv": "^5.4",
         "wpackagist-plugin/siteimprove": "2.0.6",
-        "colbycommunications/colby-college-theme": "dev-after-merge-issues",
+        "colbycommunications/colby-college-theme": "2.4.1",
         "colbycommunications/colby-colbyarts-theme": "dev-master",
         "wpackagist-plugin/timber-library": "1.23.0",
         "wpackagist-plugin/regenerate-thumbnails": "3.1.6",

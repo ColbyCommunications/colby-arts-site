@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa81755f444b00257c2ae494d03011f1",
+    "content-hash": "5af86ceb70174890fef83fceedc82f06",
     "packages": [
         {
             "name": "colbycommunications/advanced-custom-fields-pro",
@@ -60,11 +60,11 @@
         },
         {
             "name": "colbycommunications/colby-college-theme",
-            "version": "dev-after-merge-issues",
+            "version": "2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-college-theme",
-                "reference": "e295ca39549c244428f77b0321354c68ad4002b1"
+                "reference": "0b1f27aee92ce2e4145260b14a45af09d27c5e39"
             },
             "require": {
                 "php": ">=7.1"
@@ -80,7 +80,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2024-01-04T21:22:55+00:00"
+            "time": "2024-01-23T15:13:52+00:00"
         },
         {
             "name": "colbycommunications/colby-ticket",
@@ -1100,16 +1100,16 @@
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "6.4.1",
+            "version": "6.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "bc7bf692e02d9d18c81ab167ef6e9036d0becde0"
+                "reference": "00ea636cf89fd17daacbc3862f368a2782267825"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/bc7bf692e02d9d18c81ab167ef6e9036d0becde0",
-                "reference": "bc7bf692e02d9d18c81ab167ef6e9036d0becde0",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/00ea636cf89fd17daacbc3862f368a2782267825",
+                "reference": "00ea636cf89fd17daacbc3862f368a2782267825",
                 "shasum": ""
             },
             "require": {
@@ -1117,7 +1117,7 @@
                 "php": ">=7.0.0"
             },
             "provide": {
-                "wordpress/core-implementation": "6.4.1"
+                "wordpress/core-implementation": "6.4.2"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -1144,7 +1144,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2023-11-09T01:33:28+00:00"
+            "time": "2023-12-06T16:30:44+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -1272,16 +1272,16 @@
         },
         {
             "name": "mck89/peast",
-            "version": "v1.15.4",
+            "version": "v1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mck89/peast.git",
-                "reference": "1df4dc28a6b5bb7ab117ab073c1712256e954e18"
+                "reference": "63dee902bd281c792f1dd760b6df268682032ed0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mck89/peast/zipball/1df4dc28a6b5bb7ab117ab073c1712256e954e18",
-                "reference": "1df4dc28a6b5bb7ab117ab073c1712256e954e18",
+                "url": "https://api.github.com/repos/mck89/peast/zipball/63dee902bd281c792f1dd760b6df268682032ed0",
+                "reference": "63dee902bd281c792f1dd760b6df268682032ed0",
                 "shasum": ""
             },
             "require": {
@@ -1294,7 +1294,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15.4-dev"
+                    "dev-master": "1.16.0-dev"
                 }
             },
             "autoload": {
@@ -1315,9 +1315,9 @@
             "description": "Peast is PHP library that generates AST for JavaScript code",
             "support": {
                 "issues": "https://github.com/mck89/peast/issues",
-                "source": "https://github.com/mck89/peast/tree/v1.15.4"
+                "source": "https://github.com/mck89/peast/tree/v1.16.0"
             },
-            "time": "2023-08-12T08:29:29+00:00"
+            "time": "2024-01-11T14:36:12+00:00"
         },
         {
             "name": "mustache/mustache",
@@ -3913,16 +3913,16 @@
         },
         {
             "name": "wp-cli/extension-command",
-            "version": "v2.1.16",
+            "version": "v2.1.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/extension-command.git",
-                "reference": "71183254b1e403bc0f9b4a97fab48e284cfe1367"
+                "reference": "955bd947d95ef91da501179c7e561d229ab3cc19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/extension-command/zipball/71183254b1e403bc0f9b4a97fab48e284cfe1367",
-                "reference": "71183254b1e403bc0f9b4a97fab48e284cfe1367",
+                "url": "https://api.github.com/repos/wp-cli/extension-command/zipball/955bd947d95ef91da501179c7e561d229ab3cc19",
+                "reference": "955bd947d95ef91da501179c7e561d229ab3cc19",
                 "shasum": ""
             },
             "require": {
@@ -4005,9 +4005,9 @@
             "homepage": "https://github.com/wp-cli/extension-command",
             "support": {
                 "issues": "https://github.com/wp-cli/extension-command/issues",
-                "source": "https://github.com/wp-cli/extension-command/tree/v2.1.16"
+                "source": "https://github.com/wp-cli/extension-command/tree/v2.1.17"
             },
-            "time": "2023-11-10T12:24:35+00:00"
+            "time": "2024-01-11T11:03:21+00:00"
         },
         {
             "name": "wp-cli/i18n-command",
@@ -5441,7 +5441,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "colbycommunications/colby-college-theme": 20,
         "colbycommunications/colby-colbyarts-theme": 20
     },
     "prefer-stable": false,
