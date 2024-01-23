@@ -19,13 +19,13 @@
         "wpackagist-plugin/wp-search-with-algolia": "2.7.0",
         "vlucas/phpdotenv": "^5.4",
         "wpackagist-plugin/siteimprove": "2.0.6",
-        "colbycommunications/colby-college-theme": "2.4.1",
+        "colbycommunications/colby-college-theme": "2.4.2",
         "colbycommunications/colby-colbyarts-theme": "dev-master",
         "wpackagist-plugin/timber-library": "1.23.0",
         "wpackagist-plugin/regenerate-thumbnails": "3.1.6",
         "wpackagist-plugin/disable-comments": "2.4.5",
         "wpackagist-plugin/advanced-gutenberg": "3.2.1",
-        "wpackagist-plugin/wp-nested-pages": "3.2.6"
+        "wpackagist-plugin/wp-nested-pages": "3.2.7"
     },
     "authors": [
         {
