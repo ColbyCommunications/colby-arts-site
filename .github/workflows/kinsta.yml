@@ -45,15 +45,15 @@ jobs:
             cd web/wp-content/themes/colby-college-theme
             composer install
             composer dump-autoload
-            yarn
-            yarn scripts:build
+            npm install
+            npm run scripts:build
             cd -
 
             
             cd web/wp-content/themes/colby-colbyarts-theme
             composer install
             composer dump-autoload
-            yarn
-            yarn scripts:build
+            npm install
+            npm run scripts:build
             cd -
             
