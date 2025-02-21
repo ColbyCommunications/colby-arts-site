@@ -1,0 +1,59 @@
+name: Deploy to Kinsta
+
+on:
+  push:
+    branches:
+      - kinsta
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+
+      - name: Checkout code
+        uses: actions/checkout@v4.1.6
+
+      # Deploy to Kinsta via SSH
+      - name: Deploy to Kinsta via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.KINSTA_SERVER_IP }}
+          username: ${{ secrets.KINSTA_SSH_USERNAME }}
+          password: ${{ secrets.KINSTA_SSH_PASSWORD }}
+          port: ${{ secrets.KINSTA_SSH_PORT }} # Optional, default is 22
+          script: |
+            # Navigate to the live site directory
+            cd /www/colbyarts_782/public
+
+            # Pull git
+            git pull
+
+            # run composer
+            composer install
+            composer dump-autoload
+
+            # generate .env
+
+            #maybe generate wp-config.php
+
+            # Build dependencies
+            
+            cd web/wp-content/themes/colby-college-theme
+            composer install
+            composer dump-autoload
+            yarn
+            yarn scripts:build
+            cd -
+
+            
+            cd web/wp-content/themes/colby-colbyarts-theme
+            composer install
+            composer dump-autoload
+            yarn
+            yarn scripts:build
+            cd -
+            
