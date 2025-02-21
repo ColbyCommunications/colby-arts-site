@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - kinsta
+env:
+  WEBMASTER_GITHUB_ACTIONS_TOKEN: ${{ secrets.WEBMASTER_GITHUB_ACTIONS_TOKEN }}
 jobs:
   deploy:
     runs-on: ubuntu-latest
