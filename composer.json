@@ -56,8 +56,7 @@
         "wordpress-install-dir": "web/wp",
         "installer-paths": {
             "web/wp-content/mu-plugins/{$name}": [
-                "type:wordpress-muplugin",
-                "wpackagist-plugin/wordpress-seo"
+                "type:wordpress-muplugin"
             ],
             "web/wp-content/plugins/{$name}": [
                 "type:wordpress-plugin"
