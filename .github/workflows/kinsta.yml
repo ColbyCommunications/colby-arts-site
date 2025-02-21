@@ -26,4 +26,38 @@ jobs:
           password: ${{ secrets.KINSTA_SSH_PASSWORD }}
           port: ${{ secrets.KINSTA_SSH_PORT }} # Optional, default is 22
           script: |
-            echo "npm: $(which npm)"
+            # Navigate to the live site directory
+            cd /www/colbyarts_782/public
+
+            # Pull git
+            git pull
+
+            # run composer
+            composer install
+            composer dump-autoload
+
+            # generate .env
+
+            #maybe generate wp-config.php
+
+            export NVM_DIR=~/.nvm
+            source ~/.nvm/nvm.sh
+            npm --help
+
+            # Build dependencies
+            which yarn
+            cd web/wp-content/themes/colby-college-theme
+            composer install
+            composer dump-autoload
+            yarn
+            yarn scripts:build
+            cd -
+
+            
+            cd web/wp-content/themes/colby-colbyarts-theme
+            composer install
+            composer dump-autoload
+            yarn
+            yarn scripts:build
+            cd -
+            
