@@ -26,4 +26,4 @@ jobs:
           password: ${{ secrets.KINSTA_SSH_PASSWORD }}
           port: ${{ secrets.KINSTA_SSH_PORT }} # Optional, default is 22
           script: |
-            which yarn
+            which npm
