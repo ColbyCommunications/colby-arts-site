@@ -29,6 +29,9 @@ jobs:
             # Navigate to the live site directory
             cd /www/your-site/public
 
-            # Pull the latest changes from the GitHub repository
-            git fetch origin main
-            git reset --hard origin/main  # Ensure the live site matches the latest main branch
+            # Pull git
+
+            # run composer
+            # generate .env
+            #maybe generate wp-config.php
+            
