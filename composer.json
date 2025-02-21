@@ -11,7 +11,6 @@
         "wpackagist-plugin/cloudflare": "4.12.8",
         "wpackagist-plugin/public-post-preview": "3.0.1",
         "wpackagist-plugin/wp-saml-auth": "2.1.4",
-        "wp-cli/wp-cli-bundle": "^2.4",
         "psy/psysh": "^0.10.4",
         "colbycommunications/advanced-custom-fields-pro": "6.3.11",
         "colbycommunications/gravityforms": "2.9.1.3",
