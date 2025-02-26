@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "81908655956ccbabb0e422f37eaf1892",
+    "content-hash": "aecbab39b43424d549ab9716b3eda5f5",
     "packages": [
         {
             "name": "colbycommunications/advanced-custom-fields-pro",
@@ -173,11 +173,11 @@
         },
         {
             "name": "colbycommunications/colby-college-theme",
-            "version": "3.0.3",
+            "version": "dev-kinsta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-college-theme",
-                "reference": "7dae6284843d86fe46cd204dc8647905e0b71c5d"
+                "reference": "95c627ed55eac52a8c28d85af07051757ea05f6f"
             },
             "require": {
                 "php": ">=7.1"
@@ -193,7 +193,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2025-02-18T20:55:23+00:00"
+            "time": "2025-02-26T17:04:36+00:00"
         },
         {
             "name": "colbycommunications/colby-ticket",
@@ -459,24 +459,24 @@
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "6.7.2",
+            "version": "6.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "341d968ef716af577f98f5c2201d41c4e291fdcf"
+                "reference": "be6edfa018053533267a16e73f6623b0fa27b2df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/341d968ef716af577f98f5c2201d41c4e291fdcf",
-                "reference": "341d968ef716af577f98f5c2201d41c4e291fdcf",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/be6edfa018053533267a16e73f6623b0fa27b2df",
+                "reference": "be6edfa018053533267a16e73f6623b0fa27b2df",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "php": ">=7.2.24"
+                "php": ">=7.0.0"
             },
             "provide": {
-                "wordpress/core-implementation": "6.7.2"
+                "wordpress/core-implementation": "6.5.5"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -503,7 +503,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2025-02-11T16:34:37+00:00"
+            "time": "2024-06-24T17:24:47+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -1426,6 +1426,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "colbycommunications/colby-college-theme": 20,
         "colbycommunications/colby-colbyarts-theme": 20
     },
     "prefer-stable": false,
