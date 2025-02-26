@@ -152,7 +152,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-colbyarts-theme",
-                "reference": "5062267290be39b923d1c246aeae2cc1b3589535"
+                "reference": "c9f346e88ebe000da87781c8c58a81fb4bb0f70c"
             },
             "require": {
                 "php": ">=7.1"
@@ -168,7 +168,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2025-02-26T19:11:23+00:00"
+            "time": "2025-02-26T19:18:02+00:00"
         },
         {
             "name": "colbycommunications/colby-college-theme",
