@@ -3,7 +3,16 @@
  * Lando-specific configuration
  */
 if ('ON' === getenv('LANDO')) {
-    $site_scheme = 'https';
+    // Set host values
+    $site_scheme      = 'http';
+    $site_host        = 'localhost';
+    $strDomainRequest = 'SERVER_NAME';
+
+    if ( isset( $_SERVER['HTTP_HOST'] ) ) {
+        $site_host   = $_SERVER['HTTP_HOST'];
+        $site_scheme = ! empty( $_SERVER['https'] ) ? 'https' : 'http';
+    }
+
     $objLandoInfo = json_decode(getenv('LANDO_INFO', true));
     define('DB_NAME', $objLandoInfo->database->creds->database);
     define('DB_USER', $objLandoInfo->database->creds->user);
@@ -14,6 +23,18 @@ if ('ON' === getenv('LANDO')) {
     define('WP_DEBUG', false);
     define('WP_DEBUG_LOG', false);
     define('WP_DEBUG_SCREEN', false);
+
+    define( 'MULTISITE', false );
+	define( 'SUBDOMAIN_INSTALL', false );
+
+    define( 'WP_HOME', $site_scheme . '://' . $site_host );
+    define( 'WP_SITEURL', WP_HOME . '/wp' );
+    define( 'DISABLE_WP_CRON', true );
+
+    $table_prefix = 'wp_';
+
+    $strContentURL = WP_HOME . '/wp-content';
+    define( 'WP_CONTENT_URL', $strContentURL );
 
     //now we need to set up our salts. this is local so this shouldnt be as crucial to have truly unique keys
     $strHash = getenv('PHP_SHA256');
