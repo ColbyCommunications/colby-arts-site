@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "36ef06633cad71088f24b1171c955374",
+    "content-hash": "ff30912b9a5521e705a0801d0bf5a1e2",
     "packages": [
         {
             "name": "colbycommunications/advanced-custom-fields-pro",
@@ -5946,6 +5946,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-search-with-algolia/"
+        },
+        {
+            "name": "wpackagist-plugin/wps-menu-exporter",
+            "version": "1.3.7.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wps-menu-exporter/",
+                "reference": "tags/1.3.7.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wps-menu-exporter.1.3.7.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wps-menu-exporter/"
         }
     ],
     "packages-dev": [],
