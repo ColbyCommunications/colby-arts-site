@@ -26,8 +26,7 @@
         "colbycommunications/capabilities-pro": "2.13.0",
         "wpackagist-plugin/wp-nested-pages": "3.2.10",
         "wpackagist-plugin/advanced-gutenberg": "3.2.2",
-        "wpackagist-plugin/wps-menu-exporter": "1.3.7.1",
-        "wpackagist-plugin/disable-everything": "0.4.1"
+        "wpackagist-plugin/wps-menu-exporter": "1.3.7.1"
     },
     "authors": [
         {
