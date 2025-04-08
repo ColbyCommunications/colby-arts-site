@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "318d67bb8d4717385bf567567ba07644",
+    "content-hash": "cfc1672be7dca1a19c8908e100f3810f",
     "packages": [
         {
             "name": "colbycommunications/advanced-custom-fields-pro",
@@ -152,7 +152,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-colbyarts-theme",
-                "reference": "15a032f684812ff8848aab3a12c5f604e5e6f6b7"
+                "reference": "a1a38e71a58a31a7ae6ffcc19165533efff949a2"
             },
             "require": {
                 "php": ">=7.1"
@@ -169,7 +169,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2025-04-04T16:39:21+00:00"
+            "time": "2025-04-08T18:03:26+00:00"
         },
         {
             "name": "colbycommunications/colby-college-theme",
@@ -5885,6 +5885,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/disable-comments/"
+        },
+        {
+            "name": "wpackagist-plugin/disable-everything",
+            "version": "0.4.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/disable-everything/",
+                "reference": "tags/0.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-everything.0.4.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/disable-everything/"
         },
         {
             "name": "wpackagist-plugin/duplicate-post",
