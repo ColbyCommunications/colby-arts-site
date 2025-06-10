@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "57dd2399e9e70ec20d77583ed0ff36ed",
+    "content-hash": "70f1743954c8c7520ef24a1d9e1e66f5",
     "packages": [
         {
             "name": "colbycommunications/advanced-custom-fields-pro",
@@ -148,15 +148,16 @@
         },
         {
             "name": "colbycommunications/colby-colbyarts-theme",
-            "version": "dev-dev",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-colbyarts-theme",
-                "reference": "a1a38e71a58a31a7ae6ffcc19165533efff949a2"
+                "reference": "590c4a995a62ba16d0add71dc4fa9282b0c76304"
             },
             "require": {
                 "php": ">=7.1"
             },
+            "default-branch": true,
             "type": "wordpress-theme",
             "authors": [
                 {
@@ -168,15 +169,15 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2025-04-08T18:03:26+00:00"
+            "time": "2025-06-10T13:08:25+00:00"
         },
         {
             "name": "colbycommunications/colby-college-theme",
-            "version": "3.0.1",
+            "version": "3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-college-theme",
-                "reference": "a1ff534311667d06595e6d90b2f81798be54a020"
+                "reference": "feb12f680e61580a35019fc1c4d8f9f621021303"
             },
             "require": {
                 "php": ">=7.1"
@@ -192,7 +193,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2025-02-04T22:01:04+00:00"
+            "time": "2025-04-03T16:14:45+00:00"
         },
         {
             "name": "colbycommunications/colby-ticket",
