@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aab58fe99721f0b9e5c41f59ee9babfd",
+    "content-hash": "7cab0443b717cd59991716736ae17041",
     "packages": [
         {
             "name": "colbycommunications/advanced-custom-fields-pro",
@@ -150,6 +150,31 @@
                 }
             ],
             "time": "2025-06-27T16:42:10+00:00"
+        },
+        {
+            "name": "colbycommunications/colby-colbyarts-theme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ColbyCommunications/colby-colbyarts-theme",
+                "reference": "590c4a995a62ba16d0add71dc4fa9282b0c76304"
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "default-branch": true,
+            "type": "wordpress-theme",
+            "authors": [
+                {
+                    "name": "Brandon Waltz",
+                    "email": "brandon.waltz@colby.edu"
+                }
+            ],
+            "description": "Colby Arts theme",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2025-06-10T13:08:25+00:00"
         },
         {
             "name": "colbycommunications/colby-college-theme",
@@ -6055,7 +6080,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "colbycommunications/colby-colbyarts-theme": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
