@@ -1,0 +1,7 @@
+
+'^/wp-admin$':
+  to: "/wp/wp-admin/"
+  regexp: true
+'^/wp-admin/(.*)':
+  to: "/wp/wp-admin/$1"
+  regexp: true

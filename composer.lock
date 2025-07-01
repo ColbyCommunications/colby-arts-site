@@ -4,22 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "70f1743954c8c7520ef24a1d9e1e66f5",
+    "content-hash": "aab58fe99721f0b9e5c41f59ee9babfd",
     "packages": [
         {
             "name": "colbycommunications/advanced-custom-fields-pro",
-            "version": "6.3.11",
+            "version": "6.4.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ColbyCommunications/advanced-custom-fields-pro.git",
-                "reference": "ed2d11578f4946a9c15ef891de3f998905271ff4"
+                "reference": "288472a52f89837d40f6db829ca168dbea05baf0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.colby.edu/dist/colbycommunications/advanced-custom-fields-pro/colbycommunications-advanced-custom-fields-pro-ed2d11578f4946a9c15ef891de3f998905271ff4-zip-b983fe.zip",
-                "reference": "ed2d11578f4946a9c15ef891de3f998905271ff4"
+                "url": "https://satis.colby.edu/dist/colbycommunications/advanced-custom-fields-pro/colbycommunications-advanced-custom-fields-pro-288472a52f89837d40f6db829ca168dbea05baf0-zip-f3d990.zip",
+                "reference": "288472a52f89837d40f6db829ca168dbea05baf0"
             },
             "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "ACF\\": "src/"
+                }
+            },
             "authors": [
                 {
                     "name": "Brandon Waltz",
@@ -31,20 +36,20 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2025-01-03T14:56:00+00:00"
+            "time": "2025-06-27T14:29:22+00:00"
         },
         {
             "name": "colbycommunications/capabilities-pro",
-            "version": "2.13.0",
+            "version": "2.19.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ColbyCommunications/capabilities-pro.git",
-                "reference": "d5473e219e73b3b97c85a904289360091b7d8ec4"
+                "reference": "e7dabb829e8349528610a844dfaf957faeec08a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.colby.edu/dist/colbycommunications/capabilities-pro/colbycommunications-capabilities-pro-d5473e219e73b3b97c85a904289360091b7d8ec4-zip-365307.zip",
-                "reference": "d5473e219e73b3b97c85a904289360091b7d8ec4"
+                "url": "https://satis.colby.edu/dist/colbycommunications/capabilities-pro/colbycommunications-capabilities-pro-e7dabb829e8349528610a844dfaf957faeec08a5-zip-6e0624.zip",
+                "reference": "e7dabb829e8349528610a844dfaf957faeec08a5"
             },
             "require": {
                 "php": ">=7.2.5"
@@ -144,40 +149,15 @@
                     "email": "help@publishpress.com"
                 }
             ],
-            "time": "2024-07-08T16:13:40+00:00"
-        },
-        {
-            "name": "colbycommunications/colby-colbyarts-theme",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ColbyCommunications/colby-colbyarts-theme",
-                "reference": "590c4a995a62ba16d0add71dc4fa9282b0c76304"
-            },
-            "require": {
-                "php": ">=7.1"
-            },
-            "default-branch": true,
-            "type": "wordpress-theme",
-            "authors": [
-                {
-                    "name": "Brandon Waltz",
-                    "email": "brandon.waltz@colby.edu"
-                }
-            ],
-            "description": "Colby Arts theme",
-            "keywords": [
-                "wordpress"
-            ],
-            "time": "2025-06-10T13:08:25+00:00"
+            "time": "2025-06-27T16:42:10+00:00"
         },
         {
             "name": "colbycommunications/colby-college-theme",
-            "version": "3.2.3",
+            "version": "3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-college-theme",
-                "reference": "feb12f680e61580a35019fc1c4d8f9f621021303"
+                "reference": "db92de3e33d145d46c9dcd26ec209ba700b9d01d"
             },
             "require": {
                 "php": ">=7.1"
@@ -193,7 +173,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2025-04-03T16:14:45+00:00"
+            "time": "2025-05-01T18:19:42+00:00"
         },
         {
             "name": "colbycommunications/colby-ticket",
@@ -224,16 +204,16 @@
         },
         {
             "name": "colbycommunications/gravityforms",
-            "version": "2.9.1.3",
+            "version": "2.9.11",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ColbyCommunications/gravityforms.git",
-                "reference": "1685fd1c92bd2d9a1898580564c2b1c98d701bb8"
+                "reference": "ebd4143a04a725adb72f00350df37a79e038e984"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.colby.edu/dist/colbycommunications/gravityforms/colbycommunications-gravityforms-1685fd1c92bd2d9a1898580564c2b1c98d701bb8-zip-bc8549.zip",
-                "reference": "1685fd1c92bd2d9a1898580564c2b1c98d701bb8"
+                "url": "https://satis.colby.edu/dist/colbycommunications/gravityforms/colbycommunications-gravityforms-ebd4143a04a725adb72f00350df37a79e038e984-zip-0271ca.zip",
+                "reference": "ebd4143a04a725adb72f00350df37a79e038e984"
             },
             "type": "wordpress-plugin",
             "authors": [
@@ -247,7 +227,34 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2025-01-03T14:52:33+00:00"
+            "time": "2025-06-27T16:33:38+00:00"
+        },
+        {
+            "name": "colbycommunications/presspermit-pro",
+            "version": "4.3.2",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ColbyCommunications/presspermit-pro.git",
+                "reference": "01fd52a873d4879cc5b4e6fbbc7b455d5d71e88a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://satis.colby.edu/dist/colbycommunications/presspermit-pro/colbycommunications-presspermit-pro-01fd52a873d4879cc5b4e6fbbc7b455d5d71e88a-zip-19c6e8.zip",
+                "reference": "01fd52a873d4879cc5b4e6fbbc7b455d5d71e88a"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Brandon Waltz",
+                    "email": "brandon.waltz@colby.edu"
+                }
+            ],
+            "description": "Premium Publish Press Permissions plugin",
+            "homepage": "https://github.com/colbycommunications/presspermit-pro",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2025-06-27T16:44:18+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -1311,16 +1318,16 @@
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "6.7.1",
+            "version": "6.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "1975a1deaef23914b391f37314cc0e6a23ae16d7"
+                "reference": "702c3bda87abb47ae43f90c7b8868cf0b7dff1e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/1975a1deaef23914b391f37314cc0e6a23ae16d7",
-                "reference": "1975a1deaef23914b391f37314cc0e6a23ae16d7",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/702c3bda87abb47ae43f90c7b8868cf0b7dff1e2",
+                "reference": "702c3bda87abb47ae43f90c7b8868cf0b7dff1e2",
                 "shasum": ""
             },
             "require": {
@@ -1328,7 +1335,7 @@
                 "php": ">=7.2.24"
             },
             "provide": {
-                "wordpress/core-implementation": "6.7.1"
+                "wordpress/core-implementation": "6.8.1"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -1355,7 +1362,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2024-11-21T14:47:02+00:00"
+            "time": "2025-04-30T16:52:49+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -1561,16 +1568,16 @@
         },
         {
             "name": "mck89/peast",
-            "version": "v1.17.0",
+            "version": "v1.17.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mck89/peast.git",
-                "reference": "3a752d39bd7d8dc1e19bcf424f3d5ac1a1ca6ad5"
+                "reference": "465810689c477fbba17f4f949b75e4d0bdab13ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mck89/peast/zipball/3a752d39bd7d8dc1e19bcf424f3d5ac1a1ca6ad5",
-                "reference": "3a752d39bd7d8dc1e19bcf424f3d5ac1a1ca6ad5",
+                "url": "https://api.github.com/repos/mck89/peast/zipball/465810689c477fbba17f4f949b75e4d0bdab13ea",
+                "reference": "465810689c477fbba17f4f949b75e4d0bdab13ea",
                 "shasum": ""
             },
             "require": {
@@ -1583,7 +1590,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17.0-dev"
+                    "dev-master": "1.17.2-dev"
                 }
             },
             "autoload": {
@@ -1604,9 +1611,9 @@
             "description": "Peast is PHP library that generates AST for JavaScript code",
             "support": {
                 "issues": "https://github.com/mck89/peast/issues",
-                "source": "https://github.com/mck89/peast/tree/v1.17.0"
+                "source": "https://github.com/mck89/peast/tree/v1.17.2"
             },
-            "time": "2025-03-07T19:44:14+00:00"
+            "time": "2025-07-01T09:30:45+00:00"
         },
         {
             "name": "nb/oxymel",
@@ -5866,15 +5873,15 @@
         },
         {
             "name": "wpackagist-plugin/disable-comments",
-            "version": "2.4.6",
+            "version": "2.5.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/disable-comments/",
-                "reference": "tags/2.4.6"
+                "reference": "tags/2.5.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disable-comments.2.4.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/disable-comments.2.5.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5902,15 +5909,15 @@
         },
         {
             "name": "wpackagist-plugin/header-footer",
-            "version": "3.3.0",
+            "version": "3.3.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/header-footer/",
-                "reference": "tags/3.3.0"
+                "reference": "tags/3.3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/header-footer.3.3.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/header-footer.3.3.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5955,16 +5962,34 @@
             "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/"
         },
         {
-            "name": "wpackagist-plugin/wordpress-seo",
-            "version": "24.2",
+            "name": "wpackagist-plugin/user-switching",
+            "version": "1.9.1",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/24.2"
+                "url": "https://plugins.svn.wordpress.org/user-switching/",
+                "reference": "tags/1.9.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.24.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/user-switching.1.9.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/user-switching/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "25.3.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/25.3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.25.3.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5974,15 +5999,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-nested-pages",
-            "version": "3.2.10",
+            "version": "3.2.13",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-nested-pages/",
-                "reference": "tags/3.2.10"
+                "reference": "tags/3.2.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-nested-pages.3.2.10.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-nested-pages.3.2.13.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5992,15 +6017,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-saml-auth",
-            "version": "2.1.4",
+            "version": "2.2.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-saml-auth/",
-                "reference": "tags/2.1.4"
+                "reference": "tags/2.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-saml-auth.2.1.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-saml-auth.2.2.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6010,15 +6035,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-search-with-algolia",
-            "version": "2.8.1",
+            "version": "2.10.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-search-with-algolia/",
-                "reference": "tags/2.8.1"
+                "reference": "tags/2.10.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-search-with-algolia.2.8.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-search-with-algolia.2.10.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6030,12 +6055,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "colbycommunications/colby-colbyarts-theme": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
