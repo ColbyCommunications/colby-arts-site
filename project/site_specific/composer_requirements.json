@@ -1,0 +1,12 @@
+{
+    "require": {
+        "wpackagist-plugin/cf-images": "1.9.4",
+        "colbycommunications/colby-colbyarts-theme": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/ColbyCommunications/colby-colbyarts-theme"
+        }
+    ]
+}
