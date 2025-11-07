@@ -8,5 +8,10 @@
             "type": "git",
             "url": "https://github.com/ColbyCommunications/colby-colbyarts-theme"
         }
-    ]
+    ],
+    "extra": {
+        "installer-paths": {
+            "web/wp-content/mu-plugins/{$name}": []
+        }
+    }
 }
