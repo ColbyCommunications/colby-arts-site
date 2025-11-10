@@ -28,7 +28,8 @@
         "colbycommunications/presspermit-pro": "4.3.2",
         "wpackagist-plugin/advanced-gutenberg": "3.2.4",
         "wpackagist-plugin/cf-images": "1.9.4",
-        "colbycommunications/colby-colbyarts-theme": "dev-master"
+        "colbycommunications/colby-colbyarts-theme": "dev-master",
+        "wpackagist-plugin/tinymce-advanced": "5.9.2"
     },
     "authors": [
         {
