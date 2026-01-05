@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6d080e1906f5b46b330d91d13bf5b3d6",
+    "content-hash": "59fd91ae9e9e8b56d4bbb8c29908f052",
     "packages": [
         {
             "name": "colbycommunications/advanced-custom-fields-pro",
@@ -5986,15 +5986,15 @@
         },
         {
             "name": "wpackagist-plugin/cf-images",
-            "version": "1.9.4",
+            "version": "1.9.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cf-images/",
-                "reference": "tags/1.9.4"
+                "reference": "tags/1.9.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cf-images.1.9.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/cf-images.1.9.8.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
