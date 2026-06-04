@@ -30,7 +30,9 @@ async function loginToWordPress(page, siteUrl) {
 }
 
 // --- Your Existing Setup Code ---
-const branch = execSync('git rev-parse --abbrev-ref HEAD', { encoding: 'utf8' }).trim();
+const branch = execSync('git rev-parse --abbrev-ref HEAD', {
+    encoding: 'utf8',
+}).trim();
 let site;
 if (branch === 'master') {
     site = execSync('~/.platformsh/bin/platform environment:info default_domain');
