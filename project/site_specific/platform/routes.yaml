@@ -1,7 +1,10 @@
-
 '^/wp-admin$':
   to: "/wp/wp-admin/"
   regexp: true
 '^/wp-admin/(.*)':
   to: "/wp/wp-admin/$1"
   regexp: true
+'^/lyons-arts-lab/applications-and-forms/':
+  to: "/lyons-arts-lab/apply/"
+  regexp: true
+  code: 301
