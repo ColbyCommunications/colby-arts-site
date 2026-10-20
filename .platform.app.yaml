@@ -58,3 +58,7 @@ hooks:
 variables:
   env: !include project/platform/variables.env.yaml
   php: !include project/site_specific/platform/app.php.yaml
+
+resources: 
+    base_memory: 128
+    memory_ratio: 256
