@@ -16,5 +16,3 @@ if [ "${PLATFORM_BRANCH}" != master ]; then
     wp post update ${TEST_PAGE_ID} --post_status=publish
   fi
 fi
-tatus=publish
-fi
