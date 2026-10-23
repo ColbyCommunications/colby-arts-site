@@ -15,7 +15,7 @@ describe('WordPress Admin Page Creation', () => {
         .then(cy.wrap) // 4. Wrap body element 
         .find('.editor-post-title__input', { timeout: 15000 }) // 5. Add safety timeout for Gutenberg
         .should('be.visible')
-        .type('My New Page');       
+        .type('My New Page');
         
         cy.get('.editor-post-publish-button__button').click();
         cy.wait(2000);
