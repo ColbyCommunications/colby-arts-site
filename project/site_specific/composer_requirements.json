@@ -1,6 +1,6 @@
 {
     "require": {
-        "wpackagist-plugin/cf-images": "1.10.2",
+        "wpackagist-plugin/cf-images": "1.10.3",
         "colbycommunications/colby-colbyarts-theme": "dev-master"
     },
     "repositories": [
