@@ -259,7 +259,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-college-theme-inertia",
-                "reference": "738c1fd41a0666df72a51a4a29cd12292b9d627c"
+                "reference": "f41b283c6de09cb6bdad702ed0a3e2c929cf5079"
             },
             "require": {
                 "boxybird/inertia-wordpress": "^0.5.6",
@@ -277,7 +277,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2026-10-29T19:44:48+00:00"
+            "time": "2026-10-30T18:58:44+00:00"
         },
         {
             "name": "colbycommunications/colby-ticket",
@@ -515,16 +515,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.11.0",
+            "version": "2.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "e52c65bed1de6aa272cdde4b7725ca6653d7b06a"
+                "reference": "472b418967419c6124edd91dc6310a3bec091dae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/e52c65bed1de6aa272cdde4b7725ca6653d7b06a",
-                "reference": "e52c65bed1de6aa272cdde4b7725ca6653d7b06a",
+                "url": "https://api.github.com/repos/composer/composer/zipball/472b418967419c6124edd91dc6310a3bec091dae",
+                "reference": "472b418967419c6124edd91dc6310a3bec091dae",
                 "shasum": ""
             },
             "require": {
@@ -614,7 +614,7 @@
                 "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/composer/issues",
                 "security": "https://github.com/composer/composer/security/policy",
-                "source": "https://github.com/composer/composer/tree/2.11.0"
+                "source": "https://github.com/composer/composer/tree/2.11.1"
             },
             "funding": [
                 {
@@ -626,7 +626,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-10-29T09:23:20+00:00"
+            "time": "2026-10-30T13:52:10+00:00"
         },
         {
             "name": "composer/installers",
