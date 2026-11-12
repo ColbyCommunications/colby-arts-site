@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4630add7556925d246a05326a05579dd",
+    "content-hash": "72c93dd58cd65db1e81cf0f670e1accc",
     "packages": [
         {
             "name": "boxybird/inertia-wordpress",
@@ -89,104 +89,36 @@
         },
         {
             "name": "colbycommunications/capabilities-pro",
-            "version": "2.44.0",
+            "version": "2.53.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ColbyCommunications/capabilities-pro.git",
-                "reference": "f15e35730bde1a7b1d5a42caf7f927bb5656705c"
+                "reference": "6f2bc7f9a7956db40e4749fd293f69d98dedcada"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.colby.edu/dist/colbycommunications/capabilities-pro/colbycommunications-capabilities-pro-f15e35730bde1a7b1d5a42caf7f927bb5656705c-zip-2c9a2d.zip",
-                "reference": "f15e35730bde1a7b1d5a42caf7f927bb5656705c"
+                "url": "https://satis.colby.edu/dist/colbycommunications/capabilities-pro/colbycommunications-capabilities-pro-6f2bc7f9a7956db40e4749fd293f69d98dedcada-zip-7c4bb6.zip",
+                "reference": "6f2bc7f9a7956db40e4749fd293f69d98dedcada"
             },
             "require": {
                 "php": ">=7.2.5"
             },
             "require-dev": {
-                "automattic/vipwpcs": "^2.3",
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
-                "friendsofphp/php-cs-fixer": "^3.4",
-                "overtrue/phplint": "^2.1",
-                "phpcompatibility/php-compatibility": "^9.3",
-                "phpstan/extension-installer": "^1.2",
-                "publishpress/publishpress-phpcs-standards": "dev-main",
-                "squizlabs/php_codesniffer": "^3.5",
-                "szepeviktor/phpstan-wordpress": "^1.1",
-                "wp-cli/i18n-command": "^2.2",
-                "wp-coding-standards/wpcs": "^2.3"
+                "publishpress/dev-workspace": "^1.0"
             },
             "type": "wordpress-plugin",
             "extra": {
                 "plugin-name": "publishpress-capabilities-pro",
                 "plugin-slug": "capabilities-pro",
-                "plugin-folder": "capabilities-pro"
+                "plugin-folder": "capabilities-pro",
+                "version-constant": "PUBLISHPRESS_CAPS_PRO_VERSION",
+                "plugin-lang-domain": "capabilities-pro",
+                "plugin-github-repo": "publishpress/publishpress-capabilities-pro",
+                "plugin-composer-package": "publishpress/publishpress-capabilities"
             },
             "scripts": {
-                "build": [
-                    "ppbuild build"
-                ],
-                "build:dir": [
-                    "ppbuild build-dir"
-                ],
-                "build:clean": [
-                    "ppbuild clean"
-                ],
-                "get:version": [
-                    "ppbuild version"
-                ],
-                "gen:mo": [
-                    "wp i18n make-mo ./languages ./languages --allow-root;wp i18n make-mo ./lib/status-capabilities/languages ./lib/status-capabilities/languages --allow-root"
-                ],
-                "gen:pot": [
-                    "wp i18n make-pot . languages/capabilities-pro.pot --domain=capabilities-pro --exclude=dev-workspace,.wordpress-org,.github,dist,tests,vendor, --allow-root;wp i18n make-pot ./lib/status-capabilities lib/status-capabilities/languages/publishpress-status-capabilities.pot --domain=publishpress-status-capabilities --exclude=dev-workspace,.wordpress-org,.github,dist,tests,vendor, --allow-root"
-                ],
-                "check:longpath": [
-                    "longpath ."
-                ],
-                "check:lint": [
-                    "phplint"
-                ],
-                "check:phpcs": [
-                    "phpcs"
-                ],
-                "check:php": [
-                    "@check:php56",
-                    "@check:php72",
-                    "@check:php74",
-                    "@check:php80",
-                    "@check:php81",
-                    "@check:php82"
-                ],
-                "check:php56": [
-                    "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 5.6 ./capabilities-pro.php"
-                ],
-                "check:php72": [
-                    "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.2"
-                ],
-                "check:php74": [
-                    "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.4"
-                ],
-                "check:php80": [
-                    "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.0"
-                ],
-                "check:php81": [
-                    "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.1"
-                ],
-                "check:php82": [
-                    "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.2"
-                ],
-                "pre-autoload-dump": [
-                    "composer dumpautoload --working-dir=./lib"
-                ],
-                "pre-update-cmd": [
-                    "composer update --working-dir=./lib"
-                ],
-                "pre-install-cmd": [
-                    "composer install --working-dir=./lib"
-                ],
-                "term": [
-                    "cd dev-workspace && ./run"
+                "translate:repair-plurals": [
+                    "vendor/bin/publishpress-translate --repair-plurals"
                 ]
             },
             "license": [
@@ -199,10 +131,10 @@
                 }
             ],
             "support": {
-                "source": "https://github.com/ColbyCommunications/capabilities-pro/tree/2.44.0",
+                "source": "https://github.com/ColbyCommunications/capabilities-pro/tree/2.53.0",
                 "issues": "https://github.com/ColbyCommunications/capabilities-pro/issues"
             },
-            "time": "2026-06-02T16:28:04+00:00"
+            "time": "2026-10-23T15:13:47+00:00"
         },
         {
             "name": "colbycommunications/colby-colbyarts-theme",
@@ -231,11 +163,11 @@
         },
         {
             "name": "colbycommunications/colby-college-theme",
-            "version": "dev-accessibility-2026",
+            "version": "3.10.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-college-theme",
-                "reference": "10301540e8a94b05d4893c69f82a70790c7f6309"
+                "reference": "bc989fb3eac178fb5f1e03aa32dc6daf6102b0ef"
             },
             "require": {
                 "php": ">=7.1"
@@ -251,7 +183,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2026-08-24T12:41:34+00:00"
+            "time": "2026-09-09T14:31:32+00:00"
         },
         {
             "name": "colbycommunications/colby-college-theme-inertia",
@@ -259,7 +191,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-college-theme-inertia",
-                "reference": "46b48a6e430e7156cf306e17a77e0a00adfa70c2"
+                "reference": "6dcb648763e425ac299b45373054f7d12b8f9f2f"
             },
             "require": {
                 "boxybird/inertia-wordpress": "^0.5.6",
@@ -277,7 +209,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2026-11-11T19:52:43+00:00"
+            "time": "2026-11-11T23:46:34+00:00"
         },
         {
             "name": "colbycommunications/colby-ticket",
@@ -312,16 +244,16 @@
         },
         {
             "name": "colbycommunications/gravityforms",
-            "version": "2.10.3",
+            "version": "3.2.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ColbyCommunications/gravityforms.git",
-                "reference": "aeec1b3b32e636b66bcc21494f35b20ffbec76fb"
+                "reference": "85ff0cfc941a83c471b840f1a38223dabef2f911"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.colby.edu/dist/colbycommunications/gravityforms/colbycommunications-gravityforms-aeec1b3b32e636b66bcc21494f35b20ffbec76fb-zip-fdbe18.zip",
-                "reference": "aeec1b3b32e636b66bcc21494f35b20ffbec76fb"
+                "url": "https://satis.colby.edu/dist/colbycommunications/gravityforms/colbycommunications-gravityforms-85ff0cfc941a83c471b840f1a38223dabef2f911-zip-0609bb.zip",
+                "reference": "85ff0cfc941a83c471b840f1a38223dabef2f911"
             },
             "type": "wordpress-plugin",
             "authors": [
@@ -336,23 +268,23 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/ColbyCommunications/gravityforms/tree/2.10.3",
+                "source": "https://github.com/ColbyCommunications/gravityforms/tree/3.2.0.1",
                 "issues": "https://github.com/ColbyCommunications/gravityforms/issues"
             },
-            "time": "2026-06-02T16:23:47+00:00"
+            "time": "2026-10-23T15:08:52+00:00"
         },
         {
             "name": "colbycommunications/presspermit-pro",
-            "version": "4.8.2",
+            "version": "4.9.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ColbyCommunications/presspermit-pro.git",
-                "reference": "bd44e8b244c2cec9e1717a273ff4094e4d22fa29"
+                "reference": "3ed82de6c98a846310453cb165ae7f7aa226ae53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.colby.edu/dist/colbycommunications/presspermit-pro/colbycommunications-presspermit-pro-bd44e8b244c2cec9e1717a273ff4094e4d22fa29-zip-269b56.zip",
-                "reference": "bd44e8b244c2cec9e1717a273ff4094e4d22fa29"
+                "url": "https://satis.colby.edu/dist/colbycommunications/presspermit-pro/colbycommunications-presspermit-pro-3ed82de6c98a846310453cb165ae7f7aa226ae53-zip-9439e4.zip",
+                "reference": "3ed82de6c98a846310453cb165ae7f7aa226ae53"
             },
             "type": "wordpress-plugin",
             "authors": [
@@ -367,10 +299,10 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/ColbyCommunications/presspermit-pro/tree/4.8.2",
+                "source": "https://github.com/ColbyCommunications/presspermit-pro/tree/4.9.1",
                 "issues": "https://github.com/ColbyCommunications/presspermit-pro/issues"
             },
-            "time": "2026-06-02T16:29:14+00:00"
+            "time": "2026-10-23T15:15:02+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -1412,16 +1344,16 @@
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "7.0.0",
+            "version": "7.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "fcbc2f2636d65ae060dfb6a5377ba43e0a599e84"
+                "reference": "7c0153862c16407dce737ccc87a64a25953b687b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/fcbc2f2636d65ae060dfb6a5377ba43e0a599e84",
-                "reference": "fcbc2f2636d65ae060dfb6a5377ba43e0a599e84",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/7c0153862c16407dce737ccc87a64a25953b687b",
+                "reference": "7c0153862c16407dce737ccc87a64a25953b687b",
                 "shasum": ""
             },
             "require": {
@@ -1429,7 +1361,7 @@
                 "php": ">=7.4"
             },
             "provide": {
-                "wordpress/core-implementation": "7.0.0"
+                "wordpress/core-implementation": "7.0.2"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -1456,7 +1388,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2026-05-20T19:36:40+00:00"
+            "time": "2026-07-17T18:48:27+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -2307,47 +2239,49 @@
         },
         {
             "name": "symfony/console",
-            "version": "v6.4.50",
+            "version": "v8.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "955771637c0a01d5e91730aa8f63edae5190e2c7"
+                "reference": "5a315b092b81f3e920e9daea1a2ae4c66ed298b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/955771637c0a01d5e91730aa8f63edae5190e2c7",
-                "reference": "955771637c0a01d5e91730aa8f63edae5190e2c7",
+                "url": "https://api.github.com/repos/symfony/console/zipball/5a315b092b81f3e920e9daea1a2ae4c66ed298b9",
+                "reference": "5a315b092b81f3e920e9daea1a2ae4c66ed298b9",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.1",
+                "php": ">=8.4.1",
                 "symfony/deprecation-contracts": "^2.5|^3",
-                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/polyfill-mbstring": "^1.0",
+                "symfony/polyfill-php85": "^1.32",
                 "symfony/service-contracts": "^2.5|^3",
-                "symfony/string": "^5.4|^6.0|^7.0"
+                "symfony/string": "^7.4.6|^8.0.6"
             },
             "conflict": {
-                "symfony/dependency-injection": "<5.4",
-                "symfony/dotenv": "<5.4",
-                "symfony/event-dispatcher": "<5.4",
-                "symfony/lock": "<5.4",
-                "symfony/process": "<5.4"
+                "symfony/dependency-injection": "<8.1",
+                "symfony/event-dispatcher": "<8.1"
             },
             "provide": {
                 "psr/log-implementation": "1.0|2.0|3.0"
             },
             "require-dev": {
                 "psr/log": "^1|^2|^3",
-                "symfony/config": "^5.4|^6.0|^7.0",
-                "symfony/dependency-injection": "^5.4|^6.0|^7.0",
-                "symfony/event-dispatcher": "^5.4|^6.0|^7.0",
-                "symfony/http-foundation": "^6.4|^7.0",
-                "symfony/http-kernel": "^6.4|^7.0",
-                "symfony/lock": "^5.4|^6.0|^7.0",
-                "symfony/messenger": "^5.4|^6.0|^7.0",
-                "symfony/process": "^5.4|^6.0|^7.0",
-                "symfony/stopwatch": "^5.4|^6.0|^7.0",
-                "symfony/var-dumper": "^5.4|^6.0|^7.0"
+                "symfony/config": "^7.4|^8.0",
+                "symfony/dependency-injection": "^8.1",
+                "symfony/event-dispatcher": "^8.1",
+                "symfony/filesystem": "^7.4|^8.0",
+                "symfony/http-foundation": "^7.4|^8.0",
+                "symfony/http-kernel": "^7.4|^8.0",
+                "symfony/lock": "^7.4|^8.0",
+                "symfony/messenger": "^7.4|^8.0",
+                "symfony/mime": "^7.4|^8.0",
+                "symfony/process": "^7.4|^8.0",
+                "symfony/stopwatch": "^7.4|^8.0",
+                "symfony/uid": "^7.4|^8.0",
+                "symfony/validator": "^7.4|^8.0",
+                "symfony/var-dumper": "^7.4|^8.0"
             },
             "type": "library",
             "autoload": {
@@ -2381,7 +2315,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v6.4.50"
+                "source": "https://github.com/symfony/console/tree/v8.1.11"
             },
             "funding": [
                 {
@@ -2401,7 +2335,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-11-03T21:19:33+00:00"
+            "time": "2026-11-04T07:07:11+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -2476,25 +2410,26 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v7.4.23",
+            "version": "v8.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "53d609da66578dad5a39fe290e8f924ec8f05e93"
+                "reference": "58f57b6a33e3495f7f41e01258f1ae5ef76cccd2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/53d609da66578dad5a39fe290e8f924ec8f05e93",
-                "reference": "53d609da66578dad5a39fe290e8f924ec8f05e93",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/58f57b6a33e3495f7f41e01258f1ae5ef76cccd2",
+                "reference": "58f57b6a33e3495f7f41e01258f1ae5ef76cccd2",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.2",
+                "php": ">=8.4.1",
+                "symfony/deprecation-contracts": "^2.5|^3",
                 "symfony/polyfill-ctype": "~1.8",
                 "symfony/polyfill-mbstring": "~1.8"
             },
             "require-dev": {
-                "symfony/process": "^6.4|^7.0|^8.0"
+                "symfony/process": "^7.4|^8.0"
             },
             "type": "library",
             "autoload": {
@@ -2522,7 +2457,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v7.4.23"
+                "source": "https://github.com/symfony/filesystem/tree/v8.1.11"
             },
             "funding": [
                 {
@@ -2542,27 +2477,27 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-11-04T08:27:22+00:00"
+            "time": "2026-11-04T08:39:20+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v7.4.23",
+            "version": "v8.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "c723f990aefe8c1053b18374faf4231eba84f518"
+                "reference": "a2902e479ba5691d20d51d100a715ea19ad2c837"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/c723f990aefe8c1053b18374faf4231eba84f518",
-                "reference": "c723f990aefe8c1053b18374faf4231eba84f518",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/a2902e479ba5691d20d51d100a715ea19ad2c837",
+                "reference": "a2902e479ba5691d20d51d100a715ea19ad2c837",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.2"
+                "php": ">=8.4.1"
             },
             "require-dev": {
-                "symfony/filesystem": "^6.4|^7.0|^8.0"
+                "symfony/filesystem": "^7.4|^8.0"
             },
             "type": "library",
             "autoload": {
@@ -2590,7 +2525,7 @@
             "description": "Finds files and directories via an intuitive fluent interface",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/finder/tree/v7.4.23"
+                "source": "https://github.com/symfony/finder/tree/v8.1.11"
             },
             "funding": [
                 {
@@ -2610,7 +2545,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-11-02T10:56:49+00:00"
+            "time": "2026-11-02T10:58:30+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -3272,6 +3207,86 @@
             "time": "2026-09-23T22:01:09+00:00"
         },
         {
+            "name": "symfony/polyfill-php85",
+            "version": "v1.43.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php85.git",
+                "reference": "86a42cbcc07adc331481a5ab310a4024bfc227f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php85/zipball/86a42cbcc07adc331481a5ab310a4024bfc227f6",
+                "reference": "86a42cbcc07adc331481a5ab310a4024bfc227f6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "type": "library",
+            "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php85\\": ""
+                },
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 8.5+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php85/tree/v1.43.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2026-09-25T15:46:47+00:00"
+        },
+        {
             "name": "symfony/service-contracts",
             "version": "v3.8.1",
             "source": {
@@ -3360,35 +3375,34 @@
         },
         {
             "name": "symfony/string",
-            "version": "v7.4.22",
+            "version": "v8.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "8dff7da3a56638f1d189c5368183294102de4ced"
+                "reference": "6c6110979c0150393bbb336170e286d51ab4d76c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/8dff7da3a56638f1d189c5368183294102de4ced",
-                "reference": "8dff7da3a56638f1d189c5368183294102de4ced",
+                "url": "https://api.github.com/repos/symfony/string/zipball/6c6110979c0150393bbb336170e286d51ab4d76c",
+                "reference": "6c6110979c0150393bbb336170e286d51ab4d76c",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.2",
-                "symfony/deprecation-contracts": "^2.5|^3.0",
-                "symfony/polyfill-ctype": "~1.8",
-                "symfony/polyfill-intl-grapheme": "~1.33",
-                "symfony/polyfill-intl-normalizer": "~1.0",
-                "symfony/polyfill-mbstring": "~1.0"
+                "php": ">=8.4.1",
+                "symfony/polyfill-ctype": "^1.8",
+                "symfony/polyfill-intl-grapheme": "^1.33",
+                "symfony/polyfill-intl-normalizer": "^1.0",
+                "symfony/polyfill-mbstring": "^1.0"
             },
             "conflict": {
                 "symfony/translation-contracts": "<2.5"
             },
             "require-dev": {
-                "symfony/emoji": "^7.1|^8.0",
-                "symfony/http-client": "^6.4|^7.0|^8.0",
-                "symfony/intl": "^6.4|^7.0|^8.0",
+                "symfony/emoji": "^7.4|^8.0",
+                "symfony/http-client": "^7.4|^8.0",
+                "symfony/intl": "^7.4|^8.0",
                 "symfony/translation-contracts": "^2.5|^3.0",
-                "symfony/var-exporter": "^6.4|^7.0|^8.0"
+                "symfony/var-exporter": "^7.4|^8.0"
             },
             "type": "library",
             "autoload": {
@@ -3427,7 +3441,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v7.4.22"
+                "source": "https://github.com/symfony/string/tree/v8.1.10"
             },
             "funding": [
                 {
@@ -3447,7 +3461,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-23T16:51:52+00:00"
+            "time": "2026-10-23T17:06:53+00:00"
         },
         {
             "name": "symfony/var-dumper",
@@ -6066,15 +6080,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-gutenberg",
-            "version": "3.7.1",
+            "version": "3.7.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-gutenberg/",
-                "reference": "tags/3.7.1"
+                "reference": "tags/3.7.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.3.7.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.3.7.6.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6084,15 +6098,15 @@
         },
         {
             "name": "wpackagist-plugin/cf-images",
-            "version": "1.10.2",
+            "version": "1.10.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cf-images/",
-                "reference": "tags/1.10.2"
+                "reference": "tags/1.10.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cf-images.1.10.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/cf-images.1.10.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6102,15 +6116,15 @@
         },
         {
             "name": "wpackagist-plugin/cloudflare",
-            "version": "4.14.3",
+            "version": "4.14.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cloudflare/",
-                "reference": "tags/4.14.3"
+                "reference": "tags/4.14.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cloudflare.4.14.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/cloudflare.4.14.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6120,15 +6134,15 @@
         },
         {
             "name": "wpackagist-plugin/disable-comments",
-            "version": "2.7.0",
+            "version": "2.9.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/disable-comments/",
-                "reference": "tags/2.7.0"
+                "reference": "tags/2.9.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disable-comments.2.7.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/disable-comments.2.9.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6138,15 +6152,15 @@
         },
         {
             "name": "wpackagist-plugin/duplicate-post",
-            "version": "4.6",
+            "version": "4.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/duplicate-post/",
-                "reference": "tags/4.6"
+                "reference": "tags/4.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duplicate-post.4.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/duplicate-post.4.7.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6174,15 +6188,15 @@
         },
         {
             "name": "wpackagist-plugin/public-post-preview",
-            "version": "3.1.0",
+            "version": "3.1.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/public-post-preview/",
-                "reference": "tags/3.1.0"
+                "reference": "tags/3.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/public-post-preview.3.1.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/public-post-preview.3.1.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6209,34 +6223,16 @@
             "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/"
         },
         {
-            "name": "wpackagist-plugin/svg-support",
-            "version": "2.6.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/svg-support/",
-                "reference": "tags/2.6.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/svg-support.2.6.1.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/svg-support/"
-        },
-        {
             "name": "wpackagist-plugin/tinymce-advanced",
-            "version": "5.9.2",
+            "version": "5.10.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/tinymce-advanced/",
-                "reference": "tags/5.9.2"
+                "reference": "tags/5.10.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/tinymce-advanced.5.9.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/tinymce-advanced.5.10.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6246,15 +6242,15 @@
         },
         {
             "name": "wpackagist-plugin/user-switching",
-            "version": "1.12.0",
+            "version": "1.12.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/user-switching/",
-                "reference": "tags/1.12.0"
+                "reference": "tags/1.12.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/user-switching.1.12.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/user-switching.1.12.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6264,15 +6260,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "27.7",
+            "version": "28.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/27.7"
+                "reference": "tags/28.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.27.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.28.7.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6282,15 +6278,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-nested-pages",
-            "version": "3.2.13",
+            "version": "3.3.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-nested-pages/",
-                "reference": "tags/3.2.13"
+                "reference": "tags/3.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-nested-pages.3.2.13.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-nested-pages.3.3.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6300,15 +6296,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-saml-auth",
-            "version": "2.3.2",
+            "version": "2.3.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-saml-auth/",
-                "reference": "tags/2.3.2"
+                "reference": "tags/2.3.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-saml-auth.2.3.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-saml-auth.2.3.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6318,15 +6314,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-search-with-algolia",
-            "version": "2.11.3",
+            "version": "3.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-search-with-algolia/",
-                "reference": "tags/2.11.3"
+                "reference": "tags/3.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-search-with-algolia.2.11.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-search-with-algolia.3.0.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6340,7 +6336,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "colbycommunications/colby-colbyarts-theme": 20,
-        "colbycommunications/colby-college-theme": 20,
         "colbycommunications/colby-college-theme-inertia": 20
     },
     "prefer-stable": false,
