@@ -13,7 +13,8 @@ if ('ON' === getenv('LANDO')) {
     define('DB_COLLATE', '');
     define('WP_DEBUG', false);
     define('WP_DEBUG_LOG', false);
-    define('WP_DEBUG_SCREEN', false);
+    define('WP_DEBUG_DISPLAY', false);
+    ini_set('display_errors', '0');
 
     //now we need to set up our salts. this is local so this shouldnt be as crucial to have truly unique keys
     $strHash = getenv('PHP_SHA256');
