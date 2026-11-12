@@ -30,7 +30,8 @@
         "wpackagist-plugin/tinymce-advanced": "5.10.1",
         "colbycommunications/colby-college-theme-inertia": "dev-arts-jl",
         "wpackagist-plugin/cf-images": "1.10.3",
-        "colbycommunications/colby-colbyarts-theme": "dev-master"
+        "colbycommunications/colby-colbyarts-theme": "dev-master",
+        "wpackagist-plugin/svg-support": "2.6.1"
     },
     "authors": [
         {
