@@ -191,7 +191,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColbyCommunications/colby-college-theme-inertia",
-                "reference": "6cd194e0bd55e875a2c041497716bca6955335d9"
+                "reference": "17e3ec2971dd1c0bb8104dcd9f9abf69df50603c"
             },
             "require": {
                 "boxybird/inertia-wordpress": "^0.5.6",
@@ -209,7 +209,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2026-11-12T20:08:41+00:00"
+            "time": "2026-11-16T18:36:40+00:00"
         },
         {
             "name": "colbycommunications/colby-ticket",
